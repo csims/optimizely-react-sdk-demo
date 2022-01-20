@@ -8,12 +8,12 @@ const IndexPage = () => {
 
   return (
     <div>
-      <h2>Index page</h2>
+      <h2>Another page</h2>
       <div>{`optimizely defined? ${!!optimizely}`}</div>
       <div>{`optimizely user id: ${optimizely && optimizely.user && optimizely.user.id}`}</div>
       <div>{`variation: ${variation}`}</div>
-      <div><Link to='/anotherPage'>navigate via gatsby link</Link></div>
-      <div><a href='/anotherPage'>navigate via full page load</a></div>
+      <div><Link to='/'>navigate via gatsby link</Link></div>
+      <div><a href='/'>navigate via full page load</a></div>
     </div>
   )
 }
