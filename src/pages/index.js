@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 const IndexPage = () => {
   const { optimizely } = useContext(OptimizelyContext)
-  const [ variation, clientReady, didTimeout ] = useExperiment('my_experiment')
+  const [ variation, clientReady, didTimeout ] = useExperiment('my_experiment', { autoUpdate: true })
 
   return (
     <div>
