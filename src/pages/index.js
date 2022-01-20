@@ -13,7 +13,7 @@ const IndexPage = () => {
       <div>{`optimizely user id: ${optimizely && optimizely.user && optimizely.user.id}`}</div>
       <div>{`variation: ${variation}`}</div>
       <div><Link to='/anotherPage'>navigate via gatsby link</Link></div>
-      <div><a href='/anotherPage'>navigate via full page load</a></div>
+      <div><a href='/optimizely-react-sdk-demo/anotherPage/'>navigate via full page load</a></div>
     </div>
   )
 }
