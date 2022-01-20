@@ -5,5 +5,6 @@ module.exports = {
     },
     plugins: [
 
-    ]
+    ],
+    pathPrefix: "/optimizely-react-sdk-demo"
 }
